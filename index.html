@@ -45,14 +45,14 @@
         }
         .game-board {
             display: grid;
-            grid-template-columns: repeat(4, 130px);
+            grid-template-columns: repeat(8, 120px);
             gap: 15px;
             margin: 15px auto;
             perspective: 1000px;
         }
         .card {
-            width: 130px;
-            height: 130px;
+            width: 120px;
+            height: 120px;
             position: relative;
             transform-style: preserve-3d;
             transition: transform 0.6s;
@@ -79,7 +79,7 @@
         .card-front {
             background: white;
             transform: rotateY(180deg);
-            padding: 8px;
+            padding: 10px;
         }
         .card-front img {
             width: 100%;
@@ -88,7 +88,7 @@
         }
         .card-back {
             background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            font-size: 45px;
+            font-size: 50px;
         }
         .controls {
             margin-top: 15px;
